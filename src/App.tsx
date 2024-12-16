@@ -2,10 +2,12 @@ import React from 'react';
 import Calculator from './components/Calculator';
 import Header from './components/Header';
 import { Helmet } from 'react-helmet-async';
+import YandexMetrika from './components/YandexMetrika';
 
 function App() {
   return (
     <>
+      <YandexMetrika />
       <Helmet>
         <title>SEO Link Calculator - Calculate Required Backlinks for Top Rankings</title>
         <meta name="description" content="Free SEO calculator tool to determine how many backlinks you need for top Google rankings. Calculate trusted domain links, PBN links & crowd marketing requirements." />
