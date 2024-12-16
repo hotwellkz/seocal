@@ -2,10 +2,12 @@ import React from 'react';
 import Calculator from '../../components/Calculator';
 import Footer from '../../components/Footer';
 import { Helmet } from 'react-helmet-async';
+import YandexMetrika from '../../components/YandexMetrika';
 
 function RussianCalculator() {
   return (
     <>
+      <YandexMetrika />
       <Helmet>
         <title>SEO Калькулятор - Рассчитайте необходимые ссылки для топовых позиций</title>
         <meta name="description" content="Бесплатный SEO калькулятор для расчета количества ссылок, необходимых для продвижения в топ Google и Яндекс. Учитывает конкуренцию, регион и текущие позиции." />
